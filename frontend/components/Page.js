@@ -1,10 +1,12 @@
-import Header from './Header';
+import GlobalStyles from '../shared/GlobalStyles';
+import Header from './Header/Header';
+import * as S from './Container/Container.styled';
 
 const Page = ({ children }) => (
   <div>
+    <GlobalStyles />
     <Header />
-    <h2>I am the page component</h2>
-    {children}
+    <S.Container>{children}</S.Container>
   </div>
 );
 
