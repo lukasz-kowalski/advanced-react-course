@@ -10,12 +10,12 @@ const Header = () => (
           <S.LogoLink>Sick fits</S.LogoLink>
         </Link>
       </S.Logo>
+      <Nav />
     </S.Bar>
 
     <S.SubBar>
       <p>Search</p>
     </S.SubBar>
-    <Nav />
   </S.Header>
 );
 

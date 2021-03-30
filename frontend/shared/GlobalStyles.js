@@ -16,6 +16,10 @@ const GlobalStyles = createGlobalStyle`
       padding: 0;
     }
 
+    html {
+      font-size: 62.5%;
+    }
+
     body {
       font-family: 'radnika_next', sans-serif;
       font-size: 1.5rem;
